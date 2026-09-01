@@ -1,0 +1,13 @@
+name: Daily Workflow
+
+on:
+  schedule:
+    - cron: "30 13 * * *"
+
+jobs:
+  daily-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "GitHub sheduled Action executed!"
