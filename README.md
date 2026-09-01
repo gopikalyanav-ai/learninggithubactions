@@ -1,1 +1,6 @@
-# learning github actions
+## learning github actions
+
+### components
+* on
+* jobs
+* steps
