@@ -13,3 +13,5 @@ jobs:
     steps:
       - name: learning
         run: echo "Hello from GitHub Actions!"
+      - name: list env
+        run: printenv  
